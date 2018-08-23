@@ -7,9 +7,10 @@ class Anagram
   end 
 
   def match(array)
-    result = nil 
-    array.select { |e| array[e]
     
+    array.select do |e|
+      if e == word
+    end 
   end 
 
 
